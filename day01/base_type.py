@@ -34,6 +34,7 @@ if __name__ == '__main__':
     # int_demo()
     # 提取变量 ctrl+alt+v
     # 调用 sub 方法 传入3,2， 得到返回值，赋值给 result 变量
+
     # result = sub(3, 2)
     # print(result)
     float_demo()
