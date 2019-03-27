@@ -22,6 +22,19 @@ if __name__ == '__main__':
     assert 200 == json_body['code']
 
     data_dict = json_body['data']
+    token_head = data_dict['tokenHead']
+    token_ = data_dict ['token']
+    head = {'Authorization':token_head + ''+token_}
+    get_info = requests.get(url='http://192.168.60.132:8080/admin/info', headers=head)
+    print(get_info.text)
+    
+
+    requests_get = requests.get('http://192.168.60.132:8080/brand/list?pageNum=1&pageSize=100')
+
+
+
+
+
 
 
 

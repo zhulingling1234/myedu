@@ -4,8 +4,11 @@ def jisuan(a,b):
     print(a - b)
     print(a * b)
     print(a / b)
+    # 取余
     print(a % b)
 
+
+#
 def duibi(a,b,c):
     print(a > b)
     print(a < b)

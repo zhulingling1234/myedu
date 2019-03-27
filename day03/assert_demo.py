@@ -14,8 +14,32 @@ def zuihou():
     finally:
         print('最后-----')
 
+def while_demo():
+    a = 0
+    while a < 5:
+        print('hello world')
+        a+=1
 
 
 if __name__ == '__main__':
-    zuihou()
+    astr = '哈我发的密码'
+    # assert '我' in astr
+    # assert '你' in astr
+    try:
+        assert '你' in astr
+    except:
+        print('报错啦，断言没通过')
+    finally:
+        print('------')
+
+
+
+
+
+
+
+
+
+
+
 

@@ -6,5 +6,6 @@ atuple = (1,23,5,2,3)
 
 
 if __name__ == '__main__':
+    # 元组不可以被修改
     print(atuple[0])
     atuple[0]=5

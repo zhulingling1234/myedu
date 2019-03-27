@@ -15,7 +15,7 @@ def os_demo():
     abspath1 = os.path.abspath('../..')
     print(abspath1)
 
-
+#  open 方法演示
 def open_demo():
     text_io = open('../test.text', 'w+')
     text_io.write("哈哈哈哈啊哈哈")
@@ -28,6 +28,7 @@ def open_demo2():
     # 相对路径 ../ test.text
     # 绝对路径  C:\Users\YSL\PycharmProjects\myedu\test.text
     #  r 代表只读模式 不可写入
+    # w+  代表读写模式， 写入时会覆盖 原文档内容
     text_io = open('../test.text', 'w+')
     # 读取第一行
     readline = text_io.readline()

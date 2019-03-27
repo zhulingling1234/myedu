@@ -28,3 +28,7 @@ if __name__ == '__main__':
      loads = json.loads(adictstr)
      dumps = json.dumps(loads, ensure_ascii=False)
      print(dumps)
+     print(adict)
+     print(adict['name'])
+     adict.pop('name')
+     print(adict)

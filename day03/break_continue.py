@@ -18,7 +18,9 @@ def continue_demo():
         print('')
 
 if __name__ == '__main__':
-    pass
+    break_demo()
+    continue_demo()
+
 
 
 

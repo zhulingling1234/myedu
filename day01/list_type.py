@@ -60,6 +60,17 @@ def reverse_demo():
     print(blist)
     pass
 
+
+def list_demo1():
+    # 局部变量
+    alist = [4, 'ysl', '8', 7]
+    print(alist)
+    print(alist[0])
+    print(alist[1])
+    print(alist[-1])
+    print(alist[-2])
+    print(blist)
+
 # 列表/集合
 if __name__ == '__main__':
     alist = [4, 'ysl', '8', 7,6,2,5]
@@ -69,4 +80,11 @@ if __name__ == '__main__':
     # print(blist.pop(4))
     # alist.pop(4)
     # print(alist)
-    orderby_demo()
+    # orderby_demo()
+    # list_demo1()
+    # alist[0] = 1
+    # print(alist[0])
+    # print(alist)
+    # alist.pop()
+    # alist.pop(3)
+    # print(alist)
